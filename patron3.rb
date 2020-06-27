@@ -1,9 +1,9 @@
-n = ARGV[0].to_i # 24
+n = ARGV[0].to_i 
 n.times do |i|
-    if i%3 == 0 || i%3 == 1
-        print '.'
-    elsif
-        print "**"
+    if i%6 == 0 || i%6 == 1
+        print "."
+    elsif  
+        print '**'
     else
         print "||"
     end
